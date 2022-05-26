@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    background-color: darkgreen;
+}
+
+.goalpost__left {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.goalpost__right {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
